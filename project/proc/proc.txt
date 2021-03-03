@@ -1,0 +1,5 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `cardet`()
+    NO SQL
+SELECT * FROM car_detail$$
+DELIMITER ;

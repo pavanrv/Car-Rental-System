@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>Admin Panel</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="w3.css">
+<body class="w3-content" style="max-width:1200px">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+  <marquee><h3>Welcome Admin...</h3><h4>Please select options from  below.</h4></marquee>
+<header class="w3-container w3-center" style="padding:100px 100px">
+<div class="w3-top">
+	<div class="w3-bar w3-teal w3-card w3-large">
+<a href="index.php" class="3-button w3-red w3-padding-large w3-large w3-left"> logout</a>
+
+</div></div>
+    <a href="addcar.php" class="3-button w3-red w3-padding-large w3-large w3-margin-top">Delete car</a>
+<a href="addcar1.php" class="3-button w3-red w3-padding-large w3-large w3-margin-top">Add car</a>
+    <a href="updatecar.php" class="3-button w3-red w3-padding-large w3-large w3-margin-top">Update car info</a>
+
+<br><br>
+<a href="viewcust.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">View All Customers</a>
+<br><br>
+      <a href="viewcar.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">View All Cars</a>
+<br><br>
+      <a href="booking_details.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">View Booking details</a>
+ <br> <br>    <a href="revcarid.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">Revenue details (by Car ID)</a>
+      <br><br><a href="revcartype.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">Revenue details (by Car types)</a>
+      <br><br><a href="stockdetails.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">Stock details</a>
+     <br> <br><a href="custbook.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">Customer + rented details</a>
+    
+ <br> <br>    <a href="freq.php" class="3-button w3-teal w3-padding-large w3-large w3-margin-top">Frequently booked car</a>
+  
+</header> 
+  <div class="w3-black w3-center w3-padding-24">RV pavan| 1MJ17CS112</div>
+
+</div>
+<script>
+// Accordion 
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+</body>
+</html>

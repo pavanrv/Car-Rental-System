@@ -1,0 +1,5 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `procedee`(IN `cname` VARCHAR(20))
+    NO SQL
+SELECT car_id,car_name FROM car_detail WHERE car_name=cname$$
+DELIMITER ;
